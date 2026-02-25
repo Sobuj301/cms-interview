@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <!-- Tailwind Play CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -63,7 +64,8 @@
     </header>
 
     <main class="bg-black ">
-        <section class="md:rounded-t-[60px] bg-[#FFFFFF] py-10 md:py-12 lg:py-16">
+
+        <section class="md:rounded-t-[60px] bg-[#FFFFFF] py-10 md:py-12 lg:py-16 px-4">
             <div class="max-w-[1320px] mx-auto">
                 <div class="md:flex justify-between py-10">
                     <div>
@@ -215,7 +217,7 @@
             </div>
         </section>
 
-        <section class="bg-[#F8F2EA] py-10 md:py-12 lg:py-16">
+        <section class="bg-[#F8F2EA] py-10 md:py-12 lg:py-16 px-4">
             <div class="max-w-[1320px] mx-auto">
                 <div class="lg:flex lg:justify-between items-end">
                     <div>
@@ -227,19 +229,31 @@
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-12 gap-5 mt-10">
-                    <div class=" md:col-span-6"><img src="assets/img1.png" alt=""></div>
-                    <div class=" md:col-span-3"><img src="assets/img2.png" alt=""></div>
-                    <div class=" md:col-span-3"><img src="assets/immmm.png" alt=""></div>
-                    <div class=" md:col-span-3"><img src="" alt=""><img src="assets/im1.png" alt=""></div>
-                    <div class=" md:col-span-3"><img src="" alt=""><img src="assets/im2.png" alt=""></div>
-                    <div class=" md:col-span-6"><img src="" alt=""><img src="assets/im3.png" alt=""></div>
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-5 mt-10">
+                    <div class="md:col-span-6">
+                        <img class="w-full" src="assets/img1.png" alt="">
+                    </div>
+                    <div class="md:col-span-3">
+                        <img class="w-full" src="assets/img2.png" alt="">
+                    </div>
+                    <div class="md:col-span-3">
+                        <img class="w-full" src="assets/immmm.png" alt="">
+                    </div>
+                    <div class="md:col-span-3">
+                        <img class="w-full" src="assets/im1.png" alt="">
+                    </div>
+                    <div class="md:col-span-3">
+                       <img class="w-full" src="assets/im2.png" alt="">
+                    </div>
+                    <div class="md:col-span-6">
+                        <img class="w-full" src="assets/im3.png" alt="">
+                    </div>
 
                 </div>
             </div>
         </section>
 
-        <section class="bg-[#FFFFFF] py-10 md:py-12 lg:py-16">
+        <section class="bg-[#FFFFFF] py-10 md:py-12 lg:py-16 px-4">
             <div class="max-w-[1320px] mx-auto">
                 <div class="text-center my-5">
                     <h2 class="text-2xl md:3xl lg:text-5xl font-bold">Popular Sound Effect</h2>
@@ -325,7 +339,7 @@
 
     </main>
 
-    <footer class="bg-[#070707] rounded-t-[60px] text-white ">
+    <footer class="bg-[#070707] rounded-t-[60px] text-white mt-5">
         <div class="max-w-[1320px] mx-auto p-10 bg-gradient-to-r from-gray-20">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-10">
                 <div>
